@@ -1,0 +1,147 @@
+.grid {
+    display: grid;
+    width: 475px;
+    height: 475px;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(8, 1fr);
+    margin: auto;
+    background-image: url("chessboard.png");
+    background-color: red;
+    border: double 4px grey;
+    /* background-image: url(chessboard.png);
+    background-repeat: repeat; */
+}
+
+img {
+    width: 40px;
+    padding: 0;
+    margin: 0;
+}
+
+.tour1 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.cheval1 {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.fou1 {
+    grid-area: 1 / 3 / 2 / 4;
+}
+
+.reine {
+    grid-area: 1 / 4 / 2 / 5;
+}
+
+.roi {
+    grid-area: 1 / 5 / 2 / 6;
+}
+
+.fou2 {
+    grid-area: 1 / 6 / 2 / 7;
+}
+
+.cheval2 {
+    grid-area: 1 / 7 / 2 / 8;
+}
+
+.tour2 {
+    grid-area: 1 / 8 / 2 / 9;
+}
+
+.pion1 {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.pion2 {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.pion3 {
+    grid-area: 2 / 3 / 3 / 4;
+}
+
+.pion4 {
+    grid-area: 2 / 4 / 3 / 5;
+}
+
+.pion5 {
+    grid-area: 2 / 5 / 3 / 6;
+}
+
+.pion6 {
+    grid-area: 2 / 6 / 3 / 7;
+}
+
+.pion7 {
+    grid-area: 2 / 7 / 3 / 8;
+}
+
+.pion8 {
+    grid-area: 2 / 8 / 3 / 9;
+}
+
+.tourb1 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.chevalb1 {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.foub1 {
+    grid-area: 1 / 3 / 2 / 4;
+}
+
+.reineb {
+    grid-area: 1 / 4 / 2 / 5;
+}
+
+.roib {
+    grid-area: 1 / 5 / 2 / 6;
+}
+
+.foub2 {
+    grid-area: 1 / 6 / 2 / 7;
+}
+
+.chevalb2 {
+    grid-area: 1 / 7 / 2 / 8;
+}
+
+.tourb2 {
+    grid-area: 1 / 8 / 2 / 9;
+}
+
+.pionb1 {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.pionb2 {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.pionb3 {
+    grid-area: 2 / 3 / 3 / 4;
+}
+
+.pionb4 {
+    grid-area: 2 / 4 / 3 / 5;
+}
+
+.pionb5 {
+    grid-area: 2 / 5 / 3 / 6;
+}
+
+.pionb6 {
+    grid-area: 2 / 6 / 3 / 7;
+}
+
+.pionb7 {
+    grid-area: 2 / 7 / 3 / 8;
+}
+
+.pionb8 {
+    grid-area: 2 / 8 / 3 / 9;
+}
